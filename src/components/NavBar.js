@@ -14,8 +14,9 @@ const NavBar = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY || document.documentElement.scrollTop;
-      const scrollHeight = document.documentElement.scrollHeight
-      - document.documentElement.clientHeight;
+      const scrollHeight =
+        document.documentElement.scrollHeight -
+        document.documentElement.clientHeight;
       const scrollPercentage = (scrollTop / scrollHeight) * 100;
 
       if (scrollPercentage >= 2) {
@@ -37,39 +38,79 @@ const NavBar = () => {
   }, []);
 
   return (
-
     <>
-      <nav style={navbarStyle} className={`navbar ${open ? 'nav-open' : ''} ${scroll ? 'scrolled' : ''}`}>
+      <nav
+        style={navbarStyle}
+        className={`navbar ${open ? 'nav-open' : ''} ${
+          scroll ? 'scrolled' : ''
+        }`}
+      >
         <div className="tophead">
           <h1>
-            <Link className="name-logo" spy smooth offset={50} duration={500} to="home">
-              prantosh.
-            </Link>
-            {' '}
+            <Link
+              className="name-logo"
+              spy
+              smooth
+              offset={50}
+              duration={500}
+              to="home"
+            >
+              Devin Veney
+            </Link>{' '}
             <span className="blink" />
           </h1>
-          <div className={`menu-btn ${open ? 'opened-btn' : ''}`} onClick={toggleMenu} />
+          <div
+            className={`menu-btn ${open ? 'opened-btn' : ''}`}
+            onClick={toggleMenu}
+          />
         </div>
         <ul className={`menu ${open ? 'open' : ''}`}>
-
           <li>
-            <Link spy smooth offset={50} duration={500} onClick={toggleMenu} to="home">
+            <Link
+              spy
+              smooth
+              offset={50}
+              duration={500}
+              onClick={toggleMenu}
+              to="home"
+            >
               home,
             </Link>
           </li>
           <li>
-            <Link spy smooth offset={50} duration={500} onClick={toggleMenu} to="about">
+            <Link
+              spy
+              smooth
+              offset={50}
+              duration={500}
+              onClick={toggleMenu}
+              to="about"
+            >
               about,
             </Link>
           </li>
           <li>
-            <Link spy smooth offset={50} duration={500} onClick={toggleMenu} to="projects">
+            <Link
+              spy
+              smooth
+              offset={50}
+              duration={500}
+              onClick={toggleMenu}
+              to="projects"
+            >
               projects,
             </Link>
           </li>
           <li>
             <li>
-              <Link spy smooth offset={50} duration={500} onClick={toggleMenu} to="contact">
+              <Link
+                spy
+                smooth
+                offset={50}
+                duration={500}
+                onClick={toggleMenu}
+                to="contact"
+              >
                 contact
               </Link>
             </li>
