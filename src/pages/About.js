@@ -66,10 +66,7 @@ const About = () => (
           <img src={JavaScript} alt="" />
           <p>JavaScript</p>
         </div>
-        <div className="skill">
-          <img src={ReduxIcon} alt="" />
-          <p>Redux</p>
-        </div>
+        
         <div className="skill">
           <img src={HTML} alt="" />
           <p>HTML5</p>
@@ -95,117 +92,9 @@ const About = () => (
           <p>Next.js</p>
         </div>
       </div>
-      <h2 className="skill-title">Back-End</h2>
-      <div className="skills">
-        <div className="skill">
-          <img src={Ruby} alt="" />
-          <p>Ruby</p>
-        </div>
-        <div className="skill">
-          <img src={Rails} alt="" />
-          <p>Ruby on Rails</p>
-        </div>
-        <div className="skill">
-          <img src={PostGres} alt="" />
-          <p>PostgreSQL</p>
-        </div>
-      </div>
-      <h2 className="skill-title">Mobile</h2>
-      <div className="skills">
-        <div className="skill">
-          <img src={ReactIcon} alt="" />
-          <p>React Native</p>
-        </div>
-        <div className="skill">
-          <img src={Flutter} alt="" />
-          <p>Flutter</p>
-        </div>
-      </div>
-      <h2 className="skill-title">Tools</h2>
-      <div className="skills">
-        <div className="skill">
-          <img src={GitLogo} alt="" />
-          <p>Git</p>
-        </div>
-        <div className="skill">
-          <img src={GitHublogo} alt="" />
-          <p>GitHub</p>
-        </div>
-        <div className="skill">
-          <img src={RSpecLogo} alt="" />
-          <p>RSpec</p>
-        </div>
-        <div className="skill">
-          <img src={JEST} alt="" />
-          <p>JEST</p>
-        </div>
-        <div className="skill">
-          <img src={CDT} alt="" />
-          <p>Chrome Dev Tools</p>
-        </div>
-        <div className="skill">
-          <img src={VSCode} alt="" />
-          <p>VS Code</p>
-        </div>
-        <div className="skill">
-          <img src={WebPack} alt="" />
-          <p>Webpack</p>
-        </div>
-        <div className="skill">
-          <img src={PostMan} alt="" />
-          <p>Postman</p>
-        </div>
-        <div className="skill">
-          <img src={NPMlogo} alt="" />
-          <p>npm</p>
-        </div>
-        <div className="skill">
-          <img src={WordPress} alt="" />
-          <p>WordPress</p>
-        </div>
-      </div>
-      <h2 className="skill-title">Design</h2>
-      <div className="skills">
-        <div className="skill">
-          <img src={Canva} alt="" />
-          <p>Canva</p>
-        </div>
-        <div className="skill">
-          <img src={Figma} alt="" />
-          <p>Figma</p>
-        </div>
-      </div>
-      <h2 className="skill-title">Communication</h2>
-      <div className="skills">
-        <div className="skill">
-          <img src={Slack} alt="" />
-          <p>Slack</p>
-        </div>
-        <div className="skill">
-          <img src={SkypeLogo} alt="" />
-          <p>Skype</p>
-        </div>
-        <div className="skill">
-          <img src={GMeet} alt="" />
-          <p>Google Meet</p>
-        </div>
-        <div className="skill">
-          <img src={Zoomlogo} alt="" />
-          <p>Zoom</p>
-        </div>
-      </div>
-      <h2 className="skill-title">Soft Skills</h2>
-      <div className="skills">
-        <p className="soft-skill">Remote Pair-Programming</p>
-        <p className="soft-skill">Communication</p>
-        <p className="soft-skill">Mentoring</p>
-        <p className="soft-skill">Collaboration</p>
-        <p className="soft-skill">Leadership</p>
-        <p className="soft-skill">Problem Solving</p>
-        <p className="soft-skill">Time Management</p>
-        <p className="soft-skill">Decision Making</p>
-        <p className="soft-skill">Critical Thinking</p>
-      </div>
+      
+    
+      
     </div>
   </section>
 );

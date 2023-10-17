@@ -16,10 +16,7 @@ const Projects = () => {
   return (
     <div className="projects" id="projects">
       <h1 className="title projects-title">featuRed pRojecTs</h1>
-      <p className="projects-para">
-        Deployed 50+ scalable websites and cross-platform mobile applications.
-        Collaborated in 100+ projects with 30+ clients all around the world. Looking for next project/role.
-      </p>
+      
       <div className="projects-container">
         {
           projects.map((project, id) => (
