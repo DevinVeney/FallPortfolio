@@ -21,11 +21,7 @@ const Hero = () => (
         </p>
         <div className="hero-btns">
           <button className="hire-me">
-            <a
-              href="https://drive.google.com/file/d/1RIQlxcFspH89xvugEeEyvgSG_ABMX3rI/view?usp=drive_link"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="../assets/cv.pdf" target="_blank" rel="noreferrer">
               GET MY CV
             </a>
           </button>
