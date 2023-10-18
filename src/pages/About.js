@@ -3,32 +3,19 @@ import './About.css';
 import ReduxIcon from '../assets/redux.png';
 import HTML from '../assets/html.png';
 import jQuery from '../assets/jquery.png';
-import Ruby from '../assets/ruby.png';
-import JEST from '../assets/jest.png';
-import Flutter from '../assets/flutter.png';
-import VSCode from '../assets/vscode.png';
-import Figma from '../assets/figma.png';
+import tailwindcss from '../assets/tailwindcss.png';
+import mongodb from '../assets/mongodb.png';
+import express from '../assets/express.png';
+import nodejs from '../assets/nodejs.png';
 import ReactIcon from '../assets/react.png';
-import RSpecLogo from '../assets/rspec.png';
-import NPMlogo from '../assets/npm.png';
+
 import GitLogo from '../assets/git.png';
-import GitHublogo from '../assets/github.png';
-import GMeet from '../assets/meet.png';
-import Zoomlogo from '../assets/zoom.webp';
-import SkypeLogo from '../assets/skype.png';
-import Slack from '../assets/slack.png';
-import WebPack from '../assets/webpack.png';
-import PostGres from '../assets/postgres.png';
-import Rails from '../assets/rails.png';
-import Canva from '../assets/canva.png';
-import CDT from '../assets/cdt.png';
+
 import CSS from '../assets/css.png';
 import BootStrap from '../assets/bootstrap.png';
 import NextJS from '../assets/next.webp';
 import JavaScript from '../assets/javascript.png';
 import Sass from '../assets/sass.png';
-import PostMan from '../assets/postman.png';
-import WordPress from '../assets/wordpress.png';
 
 const About = () => (
   <section className="about" id="about">
@@ -56,7 +43,7 @@ const About = () => (
       </button>
     </div>
     <div className="about-skills">
-      <h2 className="skill-title">Front-End</h2>
+      <h2 className="skill-title">Skills</h2>
       <div className="skills">
         <div className="skill">
           <img src={ReactIcon} alt="" />
@@ -66,7 +53,31 @@ const About = () => (
           <img src={JavaScript} alt="" />
           <p>JavaScript</p>
         </div>
-        
+        <div className="skill">
+          <img src={ReduxIcon} alt="" />
+          <p>Redux</p>
+        </div>
+        <div className="skill">
+          <img src={GitLogo} alt="" />
+          <p>Git</p>
+        </div>
+        <div className="skill">
+          <img src={nodejs} alt="" />
+          <p>NodeJs</p>
+        </div>
+        <div className="skill">
+          <img src={express} alt="" />
+          <p>Express</p>
+        </div>
+        <div className="skill">
+          <img src={tailwindcss} alt="" />
+          <p>Tailwindcss</p>
+        </div>
+        <div className="skill">
+          <img src={mongodb} alt="" />
+          <p>MongoDb</p>
+        </div>
+
         <div className="skill">
           <img src={HTML} alt="" />
           <p>HTML5</p>
@@ -92,9 +103,6 @@ const About = () => (
           <p>Next.js</p>
         </div>
       </div>
-      
-    
-      
     </div>
   </section>
 );
