@@ -21,7 +21,9 @@ const Hero = () => (
         </p>
         <div className="hero-btns">
           <button className="hire-me">
-            <a href="./src/assets/DevinVeney2024Resume.pdf">GET MY CV</a>
+            <a href="https://docs.google.com/document/d/1ADv4CUafZ0_PdDFPyK4dq1CmtceC-Sd8GiRfr44Vwh8/edit?usp=sharing">
+              GET MY CV
+            </a>
           </button>
           <button className="lets-talk">
             <Link spy smooth offset={50} duration={500} to="contact">
